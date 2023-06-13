@@ -1,0 +1,265 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Calculator" Height="1000" Width="800">
+    <Grid Height="NaN" Margin="0,-48,0,0">
+        <StackPanel Margin ="100 " Width="360" Height="540" >
+            <Border  Margin ="-3 ,0 " Width="355" Height="540" BorderThickness="3" BorderBrush="Black">
+            </Border>
+
+
+
+            <Border Margin="-165 ,-61 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    <Image Source="C:\Users\Lenova\Downloads\positive-and-negative.png" Height="34" Width="36"></Image>
+                </Button>
+            </Border>
+
+            <Border Margin="9 ,-61 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    0
+                </Button>
+
+            </Border>
+            <Border Margin="174 ,-61 ,90 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    ,
+                </Button>
+
+            </Border>
+            <Border Margin="261 ,-61 ,0 ,0" Height="60" Width="92" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    =
+                </Button>
+
+            </Border>
+
+
+            <Border Margin="-165 ,-175 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    1
+                </Button>
+
+            </Border>
+
+            <Border Margin="9 ,-175 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    2
+                </Button>
+
+            </Border>
+            <Border Margin="174 ,-175 ,90 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    3
+                </Button>
+
+            </Border>
+            <Border Margin="261 ,-175 ,0 ,0" Height="60" Width="92" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    +
+                </Button>
+
+            </Border>
+
+
+            <Border Margin="-165 ,-291 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    4
+                </Button>
+
+            </Border>
+
+            <Border Margin="9 ,-291 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    5
+                </Button>
+
+            </Border>
+            <Border Margin="174 ,-291 ,90 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    6
+                </Button>
+
+            </Border>
+            <Border Margin="261 ,-291 ,0 ,0" Height="60" Width="92" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    -
+                </Button>
+
+            </Border>
+
+
+            <Border Margin="-165 ,-406 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    7
+                </Button>
+
+            </Border>
+
+            <Border Margin="9 ,-406 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    8
+                </Button>
+
+            </Border>
+            <Border Margin="174 ,-406 ,90 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    9
+                </Button>
+
+            </Border>
+            <Border Margin="261 ,-406 ,0 ,0" Height="60" Width="92" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="25" Padding="-10">
+                    X
+                </Button>
+
+            </Border>
+
+
+            <Border Margin="-165 ,-521 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    CE
+                </Button>
+
+            </Border>
+
+            <Border Margin="9 ,-521 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    C
+                </Button>
+
+            </Border>
+
+            <Border Margin="174 ,-521 ,90 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    <Image Source="C:\Users\Lenova\Downloads\delete (1).png" Height="43" Width="40"></Image>
+                </Button>
+
+            </Border>
+            <Border Margin="261 ,-521 ,0 ,0" Height="63" Width="96" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    <Image Source="C:\Users\Lenova\Desktop\A.png" Height="47" Width="103"></Image>
+
+                </Button>
+
+            </Border>
+
+
+            <Border Margin="-165 ,-636 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    <Image Source="C:\Users\Lenova\Downloads\discount.png" Height="48" Width="32"></Image>
+                </Button>
+
+            </Border>
+
+            <Border Margin="9 ,-636 ,100 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    <Image Source="C:\Users\Lenova\Downloads\root.png" Height="42" Width="61"></Image>
+                </Button>
+
+            </Border>
+            <Border Margin="174 ,-636 ,90 ,0" Height="60" Width="90" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    <Image Source="C:\Users\Lenova\Downloads\power (1).png" Height="61" Width="107"></Image>
+                </Button>
+
+            </Border>
+            <Border Margin="261 ,-636 ,0 ,0" Height="60" Width="92" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="30" Padding="-10">
+                    <Image Source="C:\Users\Lenova\Downloads\divide.png" Height="43" Width="62" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.1"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </Button>
+
+            </Border>
+
+
+
+
+
+
+
+
+
+
+
+            <Border Margin="-292 ,-720 ,0 ,0" Height="30" Width="61" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="18" Padding="-10">
+                    MC
+                </Button>
+
+            </Border>
+
+            <Border Margin="-174 ,-720 ,0 ,0" Height="30" Width="61" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="18" Padding="-10">
+                    MR
+                </Button>
+
+            </Border>
+
+            <Border Margin="-60 ,-720 ,0 ,0" Height="30" Width="61" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="18" Padding="-10">
+                    M+
+                </Button>
+
+            </Border>
+
+            <Border Margin="53 ,-720 ,0 ,0" Height="30" Width="61" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="18" Padding="-10">
+                    M-
+                </Button>
+
+            </Border>
+
+            <Border Margin="170 ,-720 ,0 ,0" Height="30" Width="61" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="18" Padding="-10">
+                    MS
+                </Button>
+
+            </Border>
+
+            <Border Margin="288 ,-720 ,0 ,0" Height="30" Width="62" BorderThickness="3" BorderBrush="Black">
+                <Button Background="White" FontWeight="Bold" FontSize="18" Padding="-10">
+                    M
+                </Button>
+
+            </Border>
+
+
+            <Label  Margin="-35 ,-980 ,0 ,0" Content="Standart" Height="74" Width="227" FontWeight="Bold" FontSize="35">
+            </Label>
+
+            <Label Margin="0,-980,294,0" Width="42" Height="58">
+                <Image Source="C:\Users\Lenova\Downloads\bar.png" Height="38" Width="33"></Image>
+            </Label>
+
+            <Label Margin="250 ,-1000 ,0 ,0" Width="60" Height="60">
+                <Image Source="C:\Users\Lenova\Downloads\clock.png" Height="71" Width="55"></Image>
+            </Label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </StackPanel>
+    </Grid>
+</Window>
